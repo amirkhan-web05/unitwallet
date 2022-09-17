@@ -1,0 +1,55 @@
+.installers{
+    padding-top: 5rem;
+    background-color: $BLUE_LIGHTS;
+    height: 100%;
+    margin-top: 5rem;
+}
+.installings{
+    display: flex;
+}
+
+.titles__block{
+    width: 33.5%;
+    margin-left: 1.8rem;
+}
+
+.installings__titles{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.installings__subtitles{
+    margin-top: 0.25rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+@media (max-width:990px) {
+    .installings{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .titles__block {
+        width: 100%;
+    }
+
+    .installers{
+        text-align: center;
+        padding-top: 2rem;
+        background-color: $BLUE_LIGHTS;
+        height: 100%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .blocksCenter {
+        display: block;
+    }
+}

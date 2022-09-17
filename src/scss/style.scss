@@ -1,0 +1,29 @@
+// ================ [ ADDITIONS ] ================
+@import 'reset.scss';
+@import 'vars.scss';
+
+// ================ [ BLOCKS IMPORT ] ================
+@import 'blocks/footer.scss';
+@import 'blocks/installers';
+@import 'blocks/header';
+@import 'blocks/secondSection';
+@import 'blocks/downloadButtons';
+@import 'blocks/payment';
+@import 'blocks/card';
+@import 'blocks/started';
+
+
+// ================ [ FONTS ] ================
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular);
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+body{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 62.5%;
+}

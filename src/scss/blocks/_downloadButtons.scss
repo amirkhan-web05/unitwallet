@@ -1,0 +1,80 @@
+.blocksCenter{
+    
+    display: flex;
+
+    margin-left: -0.4rem;
+    margin-top: 2rem;
+
+    &-installing{
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+}
+
+.appleDownloadButton{
+    display: flex;
+    justify-content: center;
+    
+    background-color: $BLACK;
+    border-radius: .4em;
+}
+.downloadAppsText{
+    flex-direction: column;
+    color: $WHITE;
+    
+    h4{
+        margin-left: -.3rem;
+        margin-top: .3rem;
+        
+        font-size: .6rem;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+    }
+}
+
+.downloadApps{
+    display: flex;
+    justify-content: center;
+    a{
+        text-decoration: none;
+    }
+    
+    .pictureDownloadApple{
+        margin-left: -.9rem;
+    }
+
+    .pictureDownloadApk{
+        margin-left: -.9rem;
+    }
+
+    .googleDownload{
+        margin-left: -5rem;
+    }
+
+    .apkDownload{
+        margin-left: .9rem;
+    }
+
+    button{
+        width: 185px;
+        height: 53px;
+        img{
+            width: 36px;
+            height: 36px;
+            
+            margin-top: .2rem;
+        }
+    }
+}
+
+@media (max-width:990px) {
+    .blocksCenter {
+        display: block;
+    }
+
+    .downloadApps {
+        margin-bottom: 20px;
+    }
+}

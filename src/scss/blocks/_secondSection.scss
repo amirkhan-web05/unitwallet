@@ -1,0 +1,169 @@
+.secondSection{
+
+    height: 650px;
+
+    background-color: $MAIN__BLUE;
+
+    .twoBlocks{
+        display: flex;
+        justify-content: center;
+
+        .textBlock{
+            width: 45%;
+            margin-top: 6rem;
+        }
+
+        .pictureBlock{
+            width: 50%;
+        }
+
+        h1{
+            width: 30rem;
+
+            font-size: 48px;
+            color: $WHITE;
+            font-weight: bold;
+            line-height: 1.25;
+        }
+        
+        p{
+            width: 30rem;
+            margin-top: 0.9rem;
+
+            font-size: 21px;
+            color: $WHITE;
+            line-height: 1.25;
+        }
+    }
+    
+
+    .pictureBlock img{
+        width: 520px;
+
+        margin-top: 2.5rem;
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width:1200px){
+    .secondSection {
+        padding: 0 15px;
+        height: 100%;
+        padding-bottom: 80px;
+    }
+
+
+}
+
+@media (max-width:1110px) {
+    .secondSection .twoBlocks .pictureBlock img {
+        margin-left: 2rem;
+    }
+
+    .header ul {
+        display: flex;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:1051px) {
+    .secondSection .twoBlocks .pictureBlock img {
+        margin-left: 1rem;
+    }
+
+    .header ul {
+        display: flex;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:1026px){
+
+    .secondSection .twoBlocks {
+        display: block;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+    .secondSection .twoBlocks p {
+        width: 100%;
+        margin-top: 0.9rem;
+        text-align: left;
+        color: #FFFFFF;
+        line-height: 1.25;
+        font-size: 1.1875rem;
+    }
+
+    .secondSection .twoBlocks .textBlock {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .secondSection .twoBlocks .textBlock h1 {
+        text-align: left;
+        font-size: 2.25rem;
+    }
+
+    .secondSection .twoBlocks h1 {
+        width: 100%;
+    }
+
+    .secondSection .twoBlocks .blocksCenter {
+        display:block;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+
+        button {
+            margin-bottom: 20px;
+        }
+    }
+
+    .secondSection .twoBlocks .pictureBlock {
+        width: 100%;
+    }
+
+    .secondSection .twoBlocks .pictureBlock img {
+        width: 720px;
+        margin-left: -70px;
+    }
+}
+
+@media (max-width:704px) {
+    .secondSection .twoBlocks .pictureBlock img {
+        width: 100%;
+        max-width: 620px;
+        margin-left: 20px;
+    }
+}
+
+
+@media (max-width:765px) {
+    .secondSection .twoBlocks .textBlock h1 {
+        text-align: center;
+        font-size: 2.25rem;
+    }
+
+    .secondSection .twoBlocks p {
+        width: 100%;
+        margin-top: 0.9rem;
+        text-align: center;
+        color: #FFFFFF;
+        line-height: 1.25;
+        font-size: 1.1875rem;
+    }
+
+    .secondSection .twoBlocks {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 540px;
+    }
+    .secondSection .twoBlocks .pictureBlock img {
+        width: 100%;
+        max-width: 700px;
+        margin-left: 3px;
+    }
+}
+
